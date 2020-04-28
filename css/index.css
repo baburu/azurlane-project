@@ -402,6 +402,10 @@ body.modal-open .layer0 {
     color: orangered;
 }
 
+.dotdps {
+    color: crimson;
+}
+
 .table > tbody > tr > td {
     padding: 0px;
     vertical-align: middle;
