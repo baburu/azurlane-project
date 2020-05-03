@@ -378,12 +378,24 @@ body.modal-open .layer0 {
     color: burlywood;
 }
 
+.asdps {
+    color: burlywood;
+}
+
 .torpdps {
     color: mediumspringgreen;
 }
 
 .barragedps {
     color: orchid;
+}
+
+.skilldps {
+    color: orchid;
+}
+
+.dotdps {
+    color: crimson;
 }
 
 .lightdps {
@@ -402,8 +414,8 @@ body.modal-open .layer0 {
     color: orangered;
 }
 
-.dotdps {
-    color: crimson;
+.asdmg {
+    color: skyblue;
 }
 
 .table > tbody > tr > td {
@@ -420,4 +432,21 @@ img {
 
 table.dataTable tbody tr.even {
     background-color: inherit;
+}
+
+/* popover */
+
+
+a.btn {
+    padding: 0;
+    border: 0;
+}
+
+a.btn:hover {
+    background-color: gold;
+    cursor: pointer;
+}
+
+a.btn:focus {
+    box-shadow: none;
 }
