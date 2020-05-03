@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href="./css/index.css" type="text/css" rel="stylesheet">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+<title>DPS CHART</title>
+</head>
+<body>
+
+  <table class="table table-striped table-dark">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Airstrike DPS</th>
+            <th scope="col">DoT DPS</th>
+            <th scope="col">Skills DPS</th>
+            <th scope="col">Light DPS</th>
+            <th scope="col">Medium DPS</th>
+            <th scope="col">Heavy DPS</th>
+            <th scope="col">Single Airstrike</th>
+            <th scope="col">Average DPS</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: SB2C <br/> 3rd Slot: Barracuda" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/EssexIcon.png">
+                </a>
+            </td>
+            <td class="asdps">897.9</td>
+            <td class="dotdps">247.9</td>
+            <td class="skilldps">213.4</td>
+            <td class="lightdps">1118.4</td>
+            <td class="mediumdps">1367.2</td>
+            <td class="heavydps">1748.4</td>
+            <td class="asdmg">22412</td>
+            <td class="avgdps">1406.9</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: SB2C <br/> 3rd Slot: Barracuda" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/EnterpriseIcon.png">
+                </a>
+            </td>
+            <td class="asdps">1279.8</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">0.0</td>
+            <td class="lightdps">997.4</td>
+            <td class="mediumdps">1266.0</td>
+            <td class="heavydps">1521.9</td>
+            <td class="asdmg">25761</td>
+            <td class="avgdps">1262.2</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: F4U VF-17 <br/> 3rd Slot: Barracuda" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/CentaurIcon.png">
+                </a>
+            </td>
+            <td class="asdps">878.5</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">290.4</td>
+            <td class="lightdps">935.1</td>
+            <td class="mediumdps">1226.0</td>
+            <td class="heavydps">1605.7</td>
+            <td class="asdmg">21647</td>
+            <td class="avgdps">1252.6</td>
+        </tr>
+        <tr>
+            <th scope="row">4</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: Aichi B7A Ryusei <br/> 3rd Slot: Fairey Albacore" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/FormidableIcon.png">
+                </a>
+            </td>
+            <td class="asdps">834.2</td>
+            <td class="dotdps">70.1</td>
+            <td class="skilldps">272.0</td>
+            <td class="lightdps">955.1</td>
+            <td class="mediumdps">1265.4</td>
+            <td class="heavydps">1486.6</td>
+            <td class="asdmg">21387</td>
+            <td class="avgdps">1238.7</td>
+        </tr>
+        <tr>
+            <th scope="row">5</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: SB2C <br/> 3rd Slot: Barracuda <br/> Condition: 3 Muse + Herself" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/Akagi_(Muse)Icon.png">
+                </a>
+            </td>
+            <td class="asdps">1086.9</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">146.4</td>
+            <td class="lightdps">971.0</td>
+            <td class="mediumdps">1227.6</td>
+            <td class="heavydps">1468.3</td>
+            <td class="asdmg">21315</td>
+            <td class="avgdps">1222.8</td>
+        </tr>
+        <tr>
+            <th scope="row">6</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: Aichi B7A Ryusei <br/> 2nd Slot: Aichi B7A Ryusei <br/> 3rd Slot: Comet" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/Ark_RoyalIcon.png">
+                </a>
+            </td>
+            <td class="asdps">1112.8</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">23.3</td>
+            <td class="lightdps">908.9</td>
+            <td class="mediumdps">1229.8</td>
+            <td class="heavydps">1454.8</td>
+            <td class="asdmg">23168</td>
+            <td class="avgdps">1201.0</td>
+        </tr>
+        <tr>
+            <th scope="row">7</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: SB2C <br/> 3rd Slot: Barracuda" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/ZuikakuIcon.png">
+                </a>
+            </td>
+            <td class="asdps">1120.9</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">0.0</td>
+            <td class="lightdps">874.5</td>
+            <td class="mediumdps">1136.6</td>
+            <td class="heavydps">1361.1</td>
+            <td class="asdmg">23485</td>
+            <td class="avgdps">1125.4</td>
+        </tr>
+        <tr>
+            <th scope="row">8</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: SB2C <br/> 3rd Slot: SB2C" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/SaratogaKaiIcon.png">
+                </a>
+            </td>
+            <td class="asdps">786.2</td>
+            <td class="dotdps">135.5</td>
+            <td class="skilldps">234.8</td>
+            <td class="lightdps">938.6</td>
+            <td class="mediumdps">1121.2</td>
+            <td class="heavydps">1295.3</td>
+            <td class="asdmg">20895</td>
+            <td class="avgdps">1119.0</td>
+        </tr>
+        <tr>
+            <th scope="row">9</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: SB2C <br/> 3rd Slot: Barracuda" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/KagaIcon.png">
+                </a>
+            </td>
+            <td class="asdps">1094.4</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">0.0</td>
+            <td class="lightdps">862.0</td>
+            <td class="mediumdps">1122.9</td>
+            <td class="heavydps">1341.7</td>
+            <td class="asdmg">18914</td>
+            <td class="avgdps">1110.3</td>
+        </tr>
+        <tr>
+            <th scope="row">10</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: SB2C <br/> 3rd Slot: Barracuda <br/> Condition: 4 Stacks" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/Shangri_LaIcon.png">
+                </a>
+            </td>
+            <td class="asdps">912.7</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">219.3</td>
+            <td class="lightdps">885.5</td>
+            <td class="mediumdps">1098.9</td>
+            <td class="heavydps">1325.3</td>
+            <td class="asdmg">22828</td>
+            <td class="avgdps">1102.8</td>
+        </tr>
+        <tr>
+            <th scope="row">11</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: SB2C <br/> 3rd Slot: Barracuda <br/> Condition: +Another Kizuna" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/Anniversary_Kizuna_AIIcon.png">
+                </a>
+            </td>
+            <td class="asdps">895.5</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">196.2</td>
+            <td class="lightdps">842.9</td>
+            <td class="mediumdps">1102.4</td>
+            <td class="heavydps">1316.9</td>
+            <td class="asdmg">22507</td>
+            <td class="avgdps">1088.9</td>
+        </tr>
+        <tr>
+            <th scope="row">12</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: SB2C <br/> 3rd Slot: Barracuda" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/AkagiIcon.png">
+                </a>
+            </td>
+            <td class="asdps">1066.7</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">0.0</td>
+            <td class="lightdps">838.0</td>
+            <td class="mediumdps">1081.2</td>
+            <td class="heavydps">1294.6</td>
+            <td class="asdmg">18436</td>
+            <td class="avgdps">1072.3</td>
+        </tr>
+        <tr>
+            <th scope="row">13</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: SB2C <br/> 3rd Slot: Barracuda <br/> Condition: 1st 3rd 5th Node" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/IntrepidIcon.png">
+                </a>
+            </td>
+            <td class="asdps">825.4</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">249.7</td>
+            <td class="lightdps">829.7</td>
+            <td class="mediumdps">1057.9</td>
+            <td class="heavydps">1272.9</td>
+            <td class="asdmg">21682</td>
+            <td class="avgdps">1053.9</td>
+        </tr>
+        <tr>
+            <th scope="row">14</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: SB2C <br/> 3rd Slot: Barracuda" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/HiryuuKaiIcon.png">
+                </a>
+            </td>
+            <td class="asdps">918.7</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">100.6</td>
+            <td class="lightdps">804.1</td>
+            <td class="mediumdps">1049.7</td>
+            <td class="heavydps">1253.6</td>
+            <td class="asdmg">19822</td>
+            <td class="avgdps">1037.2</td>
+        </tr>
+        <tr>
+            <th scope="row">15</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: SB2C <br/> 3rd Slot: Barracuda <br/> Condition: 3 CVs" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/Bunker_HillIcon.png">
+                </a>
+            </td>
+            <td class="asdps">727.1</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">296.6</td>
+            <td class="lightdps">791.2</td>
+            <td class="mediumdps">1026.8</td>
+            <td class="heavydps">1229.2</td>
+            <td class="asdmg">20644</td>
+            <td class="avgdps">1016.9</td>
+        </tr>
+        <tr>
+            <th scope="row">16</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: SB2C <br/> 3rd Slot: Barracuda" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/ShoukakuIcon.png">
+                </a>
+            </td>
+            <td class="asdps">982.8</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">0.0</td>
+            <td class="lightdps">775.3</td>
+            <td class="mediumdps">1027.1</td>
+            <td class="heavydps">1223.7</td>
+            <td class="asdmg">18753</td>
+            <td class="avgdps">1010.5</td>
+        </tr>
+        <tr>
+            <th scope="row">17</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: Barracuda <br/> 2nd Slot: SB2C <br/> 3rd Slot: SB2C" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/RangerKaiIcon.png">
+                </a>
+            </td>
+            <td class="asdps">1025.9</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">0.0</td>
+            <td class="lightdps">782.6</td>
+            <td class="mediumdps">1019.1</td>
+            <td class="heavydps">1224.3</td>
+            <td class="asdmg">20814</td>
+            <td class="avgdps">1009.7</td>
+        </tr>
+        <tr>
+            <th scope="row">18</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: SB2C <br/> 3rd Slot: Barracuda" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/Tokino_SoraIcon.png">
+                </a>
+            </td>
+            <td class="asdps">757.3</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">214.7</td>
+            <td class="lightdps">827.0</td>
+            <td class="mediumdps">1004.2</td>
+            <td class="heavydps">1155.7</td>
+            <td class="asdmg">19925</td>
+            <td class="avgdps">996.5</td>
+        </tr>
+        <tr>
+            <th scope="row">19</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: SB2C <br/> 3rd Slot: Barracuda" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/TaihouIcon.png">
+                </a>
+            </td>
+            <td class="asdps">709.5</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">250.5</td>
+            <td class="lightdps">754.0</td>
+            <td class="mediumdps">984.7</td>
+            <td class="heavydps">1176.6</td>
+            <td class="asdmg">19790</td>
+            <td class="avgdps">973.1</td>
+        </tr>
+        <tr>
+            <th scope="row">20</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: SB2C <br/> 3rd Slot: Barracuda" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/SouryuuKaiIcon.png">
+                </a>
+            </td>
+            <td class="asdps">908.2</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">82.9</td>
+            <td class="lightdps">771.0</td>
+            <td class="mediumdps">970.7</td>
+            <td class="heavydps">1167.0</td>
+            <td class="asdmg">19626</td>
+            <td class="avgdps">969.7</td>
+        </tr>
+        <tr>
+            <th scope="row">21</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: SB2C <br/> 3rd Slot: Barracuda" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/VictoriousIcon.png">
+                </a>
+            </td>
+            <td class="asdps">880.6</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">0.0</td>
+            <td class="lightdps">686.6</td>
+            <td class="mediumdps">984.1</td>
+            <td class="heavydps">1070.1</td>
+            <td class="asdmg">18744</td>
+            <td class="avgdps">920.9</td>
+        </tr>
+        <tr>
+            <th scope="row">22</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: Aichi B7A Ryusei <br/> 2nd Slot: Aichi B7A Ryusei" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/HermesKaiIcon.png">
+                </a>
+            </td>
+            <td class="asdps">763.0</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">57.4</td>
+            <td class="lightdps">667.8</td>
+            <td class="mediumdps">896.7</td>
+            <td class="heavydps">1049.2</td>
+            <td class="asdmg">15939</td>
+            <td class="avgdps">873.8</td>
+        </tr>
+        <tr>
+            <th scope="row">23</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: SB2C <br/> 3rd Slot: Barracuda" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/HornetIcon.png">
+                </a>
+            </td>
+            <td class="asdps">753.7</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">113.0</td>
+            <td class="lightdps">677.1</td>
+            <td class="mediumdps">850.3</td>
+            <td class="heavydps">1023.6</td>
+            <td class="asdmg">17812</td>
+            <td class="avgdps">850.3</td>
+        </tr>
+        <tr>
+            <th scope="row">24</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: SB2C <br/> 3rd Slot: SB2C <br/> Condition: Bismarck" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/Graf_ZeppelinIcon.png">
+                </a>
+            </td>
+            <td class="asdps">858.8</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">0.0</td>
+            <td class="lightdps">652.7</td>
+            <td class="mediumdps">824.3</td>
+            <td class="heavydps">996.1</td>
+            <td class="asdmg">18176</td>
+            <td class="avgdps">824.4</td>
+        </tr>
+        <tr>
+            <th scope="row">25</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: Barracuda" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/ChaserIcon.png">
+                </a>
+            </td>
+            <td class="asdps">539.8</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">151.2</td>
+            <td class="lightdps">552.8</td>
+            <td class="mediumdps">726.9</td>
+            <td class="heavydps">865.1</td>
+            <td class="asdmg">12272</td>
+            <td class="avgdps">716.2</td>
+        </tr>
+        <tr>
+            <th scope="row">26</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: SB2C <br/> 3rd Slot: Barracuda" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/YorktownIcon.png">
+                </a>
+            </td>
+            <td class="asdps">632.1</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">82.4</td>
+            <td class="lightdps">553.2</td>
+            <td class="mediumdps">707.3</td>
+            <td class="heavydps">848.5</td>
+            <td class="asdmg">14683</td>
+            <td class="avgdps">703.4</td>
+        </tr>
+        <tr>
+            <th scope="row">27</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: SB2C <br/> 2nd Slot: Barracuda <br/> Condition: Nagato" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/ShouhouKaiIcon.png">
+                </a>
+            </td>
+            <td class="asdps">658.0</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">0.0</td>
+            <td class="lightdps">512.6</td>
+            <td class="mediumdps">677.7</td>
+            <td class="heavydps">809.3</td>
+            <td class="asdmg">12399</td>
+            <td class="avgdps">667.7</td>
+        </tr>
+        <tr>
+            <th scope="row">28</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F6F Hellcat <br/> 2nd Slot: Barracuda" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/BataanIcon.png">
+                </a>
+            </td>
+            <td class="asdps">538.3</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">105.3</td>
+            <td class="lightdps">514.8</td>
+            <td class="mediumdps">652.5</td>
+            <td class="heavydps">781.2</td>
+            <td class="asdmg">14746</td>
+            <td class="avgdps">649.8</td>
+        </tr>
+        <tr>
+            <th scope="row">29</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: SB2C <br/> 3rd Slot: SB2C" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/ZeppyIcon.png">
+                </a>
+            </td>
+            <td class="asdps">587.5</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">88.2</td>
+            <td class="lightdps">546.0</td>
+            <td class="mediumdps">639.7</td>
+            <td class="heavydps">739.5</td>
+            <td class="asdmg">14269</td>
+            <td class="avgdps">641.5</td>
+        </tr>
+        <tr>
+            <th scope="row">30</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: Barracuda <br/> 3rd Slot: Barracuda" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/FumiruiruIcon.png">
+                </a>
+            </td>
+            <td class="asdps">513.6</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">79.8</td>
+            <td class="lightdps">490.6</td>
+            <td class="mediumdps">630.2</td>
+            <td class="heavydps">732.9</td>
+            <td class="asdmg">12177</td>
+            <td class="avgdps">619.1</td>
+        </tr>
+        <tr>
+            <th scope="row">31</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: Barracuda" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/CasablancaIcon.png">
+                </a>
+            </td>
+            <td class="asdps">581.3</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">0.0</td>
+            <td class="lightdps">465.0</td>
+            <td class="mediumdps">596.1</td>
+            <td class="heavydps">712.4</td>
+            <td class="asdmg">9854</td>
+            <td class="avgdps">591.7</td>
+        </tr>
+        <tr>
+            <th scope="row">32</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: Barracuda" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/RyuujouIcon.png">
+                </a>
+            </td>
+            <td class="asdps">436.0</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">122.1</td>
+            <td class="lightdps">440.5</td>
+            <td class="mediumdps">565.0</td>
+            <td class="heavydps">673.5</td>
+            <td class="asdmg">9668</td>
+            <td class="avgdps">560.2</td>
+        </tr>
+        <tr>
+            <th scope="row">33</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: F4U VF-17 <br/> 3rd Slot: Barracuda" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/IllustriousIcon.png">
+                </a>
+            </td>
+            <td class="asdps">542.7</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">0.0</td>
+            <td class="lightdps">434.1</td>
+            <td class="mediumdps">524.7</td>
+            <td class="heavydps">633.2</td>
+            <td class="asdmg">10590</td>
+            <td class="avgdps">530.1</td>
+        </tr>
+        <tr>
+            <th scope="row">34</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: Barracuda <br/> Condition: 0 Stacks" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/RyuuhouIcon.png">
+                </a>
+            </td>
+            <td class="asdps">478.3</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">0.0</td>
+            <td class="lightdps">382.7</td>
+            <td class="mediumdps">496.7</td>
+            <td class="heavydps">592.4</td>
+            <td class="asdmg">8440</td>
+            <td class="avgdps">491.2</td>
+        </tr>
+        <tr>
+            <th scope="row">35</th>
+            <td>
+                <a tabindex="0" class="btn my-popover" title="Description" data-html="true" data-content="1st Slot: F4U VF-17 <br/> 2nd Slot: Barracuda" data-toggle="popover" data-trigger="focus">
+                    <img src="./img/table-icons/UnicornIcon.png">
+                </a>
+            </td>
+            <td class="asdps">437.4</td>
+            <td class="dotdps">0.0</td>
+            <td class="skilldps">0.0</td>
+            <td class="lightdps">349.9</td>
+            <td class="mediumdps">452.1</td>
+            <td class="heavydps">539.6</td>
+            <td class="asdmg">7817</td>
+            <td class="avgdps">447.7</td>
+        </tr>
+
+        
+    </tbody>
+</table>
+
+
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script> 
+<script>$(document).ready( function () {
+  $('.table').DataTable({
+      paging: false,
+      searching: false
+  });
+  $('.my-popover').popover();
+} );</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
